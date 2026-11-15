@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
+.card {
+    background-color: #242424;
+    width: 150px;
+    padding: 12px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: 2px solid transparent;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.nomeCard {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: large;
+    color: #d4d0cd;
+    height: 45px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.imgCard {
+    width: 100%;
+    height: 190px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.card:hover {
+    background-color: #302f2f;
+    transform: translateY(-8px);
+    border-color: #d4af37;
+
+    animation: brilhoMagico 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes brilhoMagico {
+    from {
+        box-shadow:
+            0 0 5px #d4af37,
+            0 0 10px #d4af37;
+    }
+
+    to {
+        box-shadow:
+            0 0 10px #d4af37,
+            0 0 20px #b56aff,
+            0 0 35px #8a2be2;
+    }
+}

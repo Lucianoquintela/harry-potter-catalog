@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer {
+    background-color: #24180F;
+    color: #D4A843;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+

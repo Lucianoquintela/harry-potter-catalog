@@ -1,0 +1,17 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.containerCards {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 20px;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+}
+
