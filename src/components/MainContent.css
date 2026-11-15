@@ -1,9 +1,8 @@
 body {
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .containerCards {
@@ -11,7 +10,17 @@ body {
     grid-template-columns: repeat(4, 150px);
     gap: 20px;
     justify-content: center;
-    width: fit-content;
-    margin: auto;
+    margin: 100px 100px 100px 100px;
+    
+    
+    
 }
 
+.footer {
+    background-color: #24180F;
+    color: #D4A843;
+    text-align: center;
+    padding: 25px;
+    width: 100%;
+
+}

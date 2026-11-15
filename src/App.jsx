@@ -24,7 +24,7 @@ const App = () => {
       <Card imagem={hp7} nome="Harry Potter e as Relíquias da Morte - Parte 1"/>
       <Card imagem={hp8} nome="Harry Potter e as Relíquias da Morte - Parte 2"/>
     </MainContent> 
-    <Footer />
+    <Footer/>
     </>
    );
 }
